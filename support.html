@@ -20,7 +20,7 @@
       <h1>Support</h1>
       <p class="intro">Set up your first sunrise or troubleshoot an existing plan.</p>
       <nav class="contents" aria-label="On this page">
-        <a href="#setup">Set up a sunrise</a><a href="#manage">Manage a plan</a><a href="#demo">Try Demo Mode</a><a href="#troubleshoot">Troubleshoot</a>
+        <a href="#setup">Set up a sunrise</a><a href="#manage">Manage a plan</a><a href="#demo">Try Demo Mode</a><a href="#troubleshoot">Troubleshoot</a><a href="#permissions">Fix a permissions error</a>
       </nav>
       <section id="setup">
         <h2>Set up a sunrise</h2>
@@ -53,6 +53,17 @@
           <li>If the main screen asks you to sync, use <strong>… → Sync with Home</strong>. <strong>Home Diagnostics</strong> in the same menu can help identify missing scenes or automations.</li>
           <li>Before you uninstall, delete your real plans in Sunrise Alarm. For any that remain afterward, use the Apple Home app to remove the corresponding Sunrise Alarm automations and scenes.</li>
         </ul>
+      </section>
+      <section id="permissions">
+        <h2>Fix an “Insufficient privileges” error</h2>
+        <p>Sunrise Alarm creates scenes and automations in Apple Home when you save a plan. You may be able to turn a light on and off even if your Apple Account lacks permission to create those automations.</p>
+        <ol>
+          <li>Check which home you selected in Sunrise Alarm.</li>
+          <li>If someone else owns that home, ask them to open the <strong>Home</strong> app, tap <strong>… → Home Settings</strong>, and select your name under <strong>People</strong>. Have them turn on <strong>Add and Edit Accessories</strong> for your account.</li>
+          <li>Return to Sunrise Alarm and try saving the plan again.</li>
+        </ol>
+        <p><strong>Still seeing the error?</strong> Try saving a time-based automation for the same light in the Apple Home app. If that works and Sunrise Alarm still shows the error, contact support and mention that you could save the automation in Apple Home.</p>
+        <p><a href="https://support.apple.com/en-us/102386">Learn more about shared home permissions in Apple Home</a></p>
       </section>
       <section class="contact">
         <h2>Contact support</h2>
